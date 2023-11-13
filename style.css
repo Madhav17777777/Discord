@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+body{
+    background-color:antiquewhite;
+    background-image: url('bg.avif');
+    background-size: 100%  80%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav{
+    font-family: 'Ubuntu, sans-serif';
+    margin-left: 130px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height:30px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+
+}
+nav ul li{
+    padding: 0px 20px;
+}
+.tags{
+    color:aliceblue;
+    text-decoration: solid;
+    background-color: blue;
+    padding: 5px;
+
+}
+.tags button{
+    background-color: aqua;
+}
+.login{
+    padding: 5px 10px;
+    background-color: rgb(10, 131, 236);
+    border-radius: 50px;
+    color:black;
+    margin-left: 40px;
+}
+.login button{
+    background-color:chartreuse;
+}
+.Brand{
+    padding : 5px 10px;
+    margin-right: 40px;
+}
+ nav button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+.intro{
+    margin-top: 100px;
+    margin-left: 250px;
+}
+.intro h2{
+    margin-left: 120px;
+    margin-right:410px;
+    background-color: aqua;
+    color: rgb(255, 0, 0);
+    text-align: centre;
+    text-decoration: solid;
+}
+.intro p{
+    color:rgb(9, 255, 0);
+    text-align: centre;
+    background-color: blue;
+    margin-right: 180px;
+}
+.intro button{
+    border-radius: 20px;
+    margin-left: 50px;
+}
+.chrome{
+    background-color: black;
+    color: aliceblue;
+}
+ .intro button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
